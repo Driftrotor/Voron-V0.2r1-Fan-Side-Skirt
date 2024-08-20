@@ -43,3 +43,7 @@ Add this to your ```Printer.cfg``` or ```Klipper Expander.cfg``` - Just remeber 
 
 > [!NOTE]
 >the config is set in a way that it automates the Skirt Fans so that when the printer is idle and below the set temperature the Skirt Fans will be off as the power supply will not be under load so not generating a lot of heat. once a load is applied from turning on the heaters the fans will be activated.
+
+https://www.printables.com/model/508787-voron-v02-r1-skirt-fans-updated
+
+Follow the link for printable files on my Printables Page
