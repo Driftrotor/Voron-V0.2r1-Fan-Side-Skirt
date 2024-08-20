@@ -42,4 +42,4 @@ Add this to your ```Printer.cfg``` or ```Klipper Expander.cfg``` - Just remeber 
 ----
 
 > [!NOTE]
->the config is set in a way that it automates the Skirt Fans so that when the printer is idle on below the set temperature the Skirt Fans will be off as the power supply will not be under load so not generating heat. once a load is applied from turning on the heaters the fans will be activated.
+>the config is set in a way that it automates the Skirt Fans so that when the printer is idle and below the set temperature the Skirt Fans will be off as the power supply will not be under load so not generating a lot of heat. once a load is applied from turning on the heaters the fans will be activated.
