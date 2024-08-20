@@ -15,3 +15,16 @@ Fans are press fit into the skirts so no need for screws.
 Fan covers are press fit onto the front of the fans aiding in a seemless look.
 There are TWO versions of Fan Covers to choose from, Version 2 is slightly quieter.
 Also for each Fan Cover there is a NORMAL and TIGHTER fit to make sure they fit your fans nicely. 
+
+-----------------------------------------------------------------------------
+
+From experience i found that running the fans (if you have 2) reduced the chamber temparture significantly, especially if you have ACM panels.
+I have found that 50% Fan is adequate to keep things cooler under the skirts without affecting chamber temps.
+
+~[heater_fan Skirt_Fans]
+pin: expander:PA0
+max_power: 1.0
+kick_start_time: 0.5
+heater: extruder, heater_bed
+heater_temp: 45.0
+fan_speed: 0.5 ~
