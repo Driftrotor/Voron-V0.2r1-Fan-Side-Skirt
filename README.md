@@ -33,7 +33,10 @@ fan_speed: 0.5
 Add this to your ```Printer.cfg``` or ```Klipper Expander.cfg``` - Just remeber the change the ```PIN:``` to your output pin
 
 ```heater``` sets what will activate the Skirt Fans - The provided config is set so that either the Bed Heater or Extruder Heater will active the Skirt Fans.
-```heater_temp``` will set the temperature that the Skirt Fans will turn off at - NOTE - if you have both ```extruder``` and ```heater_bed``` set if will keep the Skirt Fans on until both have cooled down to the set temperature.
+```heater_temp``` will set the temperature that the Skirt Fans will turn off at.
+> [NOTE]
+>if you have both ```extruder``` and ```heater_bed``` set Klipper will keep the Skirt Fans on until both have cooled down to the set temperature.
+
 ```fan_speed``` will set the fan speed with ```1``` being 100% and ```0``` being 0% / off.
 
 ----
